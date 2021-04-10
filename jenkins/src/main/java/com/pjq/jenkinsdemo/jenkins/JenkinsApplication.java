@@ -12,6 +12,7 @@ public class JenkinsApplication {
     public static void main(String[] args) {
 
         Map map = new HashMap();
+        
         SpringApplication.run(JenkinsApplication.class, args);
     }
 
