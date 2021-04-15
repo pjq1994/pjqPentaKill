@@ -6,13 +6,15 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 import java.util.HashMap;
 import java.util.Map;
 
-@SpringBootApplication
+//@SpringBootApplication
 public class JenkinsApplication {
 
     public static void main(String[] args) {
 
-        Map map = new HashMap();
-        SpringApplication.run(JenkinsApplication.class, args);
+//        Map map = new HashMap();
+//        SpringApplication.run(JenkinsApplication.class, args);
+        String str = "";
+        System.out.println(str==null||str.equals("")?str:"");
     }
 
 }
