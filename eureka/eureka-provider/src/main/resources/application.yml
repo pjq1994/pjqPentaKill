@@ -1,0 +1,25 @@
+server:
+  port: 8902
+
+spring:
+  application:
+    name: eureka-provider
+#rabbitmq 配置
+  rabbitmq:
+    host: 47.119.160.210
+    port: 5672
+    username: admin
+    password: admin
+    virtual-host: my_vhost
+
+#注册中心eureka-provider配置
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8901/eureka
+    register-with-eureka: true
+  instance:
+    hostname: localhost
+    ip-address: localhost
+    prefer-ip-address: true
+
