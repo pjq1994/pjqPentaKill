@@ -1,6 +1,7 @@
 package com.panda.complex.entity;
 
 public class User {
+    //回退版本1
     private Integer id;
     private String userName;
     private String passWord;
