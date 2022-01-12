@@ -11,4 +11,6 @@ public class goods {
     //回退版本1
     private Integer id;
     private String goodsName;
+    //回退版本2
+    private String type;
 }
