@@ -11,7 +11,7 @@ import java.io.Serializable;
 @Setter
 @ToString
 public class Student implements Serializable {
-
+    //回退版本
     private static final long serialVersionUID = 4745273575096559860L;
     private Integer sid;
     private String name;
